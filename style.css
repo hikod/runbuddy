@@ -1,0 +1,25 @@
+header{
+    background: rgb(80, 176, 207);
+    color: yellow;
+}
+footer{
+    background-color: yellow;
+}
+h1,nav{
+    display: inline;
+}
+ul{
+    float: right;
+}
+li{
+    
+    list-style-type: none;
+    display: inline;
+    margin-right: 2.5em;
+}
+a{
+    padding: 5px,10px;
+    color: yellow;
+    text-decoration: none;
+    
+}
