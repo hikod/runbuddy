@@ -1,25 +1,38 @@
-header{
-    background: rgb(80, 176, 207);
-    color: yellow;
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
 }
-footer{
-    background-color: yellow;
-}
-h1,nav{
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
     display: inline;
-}
-ul{
-    float: right;
-}
-li{
-    
-    list-style-type: none;
-    display: inline;
-    margin-right: 2.5em;
-}
-a{
-    padding: 5px,10px;
-    color: yellow;
+  }
+  
+header a {
+    color: #fce138;
     text-decoration: none;
-    
 }
+header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  header nav ul li {
+    display: inline;
+  }
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
